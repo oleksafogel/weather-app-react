@@ -7,7 +7,7 @@ export default function Footer() {
       <small>
         This website is coded by Oleksandra Fogel and is open-sourced on{" "}
         <a
-          href="https://github.com/Alexas444/shecodes-weather-app"
+          href="https://github.com/oleksafogel/shecodes-weather-app-react"
           target="_blank"
           rel="noopener noreferrer"
         >
