@@ -1,0 +1,32 @@
+.SearchField .SearchButton {
+  border: 0px solid white;
+  background-color: buttonface;
+  padding: 5px 8px;
+}
+
+.SearchField input {
+  border: 1.5px solid #efefef;
+  border-radius: 5px;
+  display: inline;
+  padding: 5px;
+}
+
+.SearchField .CityInput {
+  max-width: 200px;
+  padding: 3.5px 5px;
+}
+
+.SearchField button {
+  border: 1.5px solid #efefef;
+  border-radius: 5px;
+  display: inline;
+  padding: 5px 8px;
+}
+
+.SearchField .CurrentLocationButton {
+  border: none;
+}
+
+.SearchField .CurrentLocationPin {
+  color: #616873;
+}

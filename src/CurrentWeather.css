@@ -1,0 +1,21 @@
+.CurrentWeather .CurrentWeatherDescription {
+  font-size: 40px;
+  margin: 50px 0 10px;
+}
+
+.CurrentWeather .CurrentWeatherDescription::first-letter {
+  text-transform: capitalize;
+}
+
+.CurrentWeather .CurrentTemp {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+.CurrentWeather .CurrentTempNumber {
+  font-weight: 900;
+}
+
+.CurrentWeather .CurrentWeatherDetails {
+  font-size: 15px;
+}

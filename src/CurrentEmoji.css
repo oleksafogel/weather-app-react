@@ -1,0 +1,8 @@
+.CurrentEmoji img {
+  height: auto;
+  width: 150px;
+}
+
+.CurrentEmoji .CurrentEmojiImgElement {
+  margin-top: 30px;
+}

@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import SearchField from "./SearchField";
+import CurrentLocation from "./CurrentLocation";
+import CurrentEmoji from "./CurrentEmoji";
+import CurrentWeather from "./CurrentWeather";
+import Footer from "./Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="row Header">
+        <div className="col-4">
+          <SearchField />
+          <CurrentLocation />
+        </div>
+        <div className="col-4">
+          <CurrentEmoji />
+        </div>
+        <div className="col-4">
+          <CurrentWeather />
+        </div>
+      </div>
+      <div className="row footer">
+        <div className="col-12 footer">
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;
