@@ -1,4 +1,5 @@
 import "./App.css";
+
 import SearchField from "./SearchField";
 import CurrentLocation from "./CurrentLocation";
 import CurrentEmoji from "./CurrentEmoji";
@@ -8,22 +9,20 @@ import Footer from "./Footer";
 export default function App() {
   return (
     <div className="App">
-      <div className="row Header">
-        <div className="col-4">
-          <SearchField />
-          <CurrentLocation />
+      <div className="container">
+        <SearchField />
+        <div className="row current">
+          <div className="col">
+            <CurrentLocation />
+          </div>
+          <div className="col d-flex justify-content-center align-items-center">
+            <CurrentEmoji />
+          </div>
+          <div className="col d-flex justify-content-center align-items-start">
+            <CurrentWeather />
+          </div>
         </div>
-        <div className="col-4">
-          <CurrentEmoji />
-        </div>
-        <div className="col-4">
-          <CurrentWeather />
-        </div>
-      </div>
-      <div className="row footer">
-        <div className="col-12 footer">
-          <Footer />
-        </div>
+        <Footer />
       </div>
     </div>
   );

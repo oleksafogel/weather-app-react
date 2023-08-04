@@ -1,8 +1,9 @@
 .CurrentLocation h1 {
-  margin: 10px 0 0;
-  padding: 10px 0;
+  color: var(--accent-color);
 }
 
-.CurrentLocation p {
-  margin-bottom: none;
+@media (max-width: 1034px) {
+  .CurrentLocation h1, p{
+    text-align: center;
+  }
 }

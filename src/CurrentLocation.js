@@ -10,13 +10,13 @@ export default function CurrentLocation() {
 
   return (
     <div className="CurrentLocation">
-      <div className="CurrentocationInfo">
+      <div className="currentocationInfo">
         <h1>
           <span>{currentLocationData.city}</span>,{" "}
           <span>{currentLocationData.country}</span>
         </h1>
       </div>
-      <div className="CurrentLocationDateTime">
+      <div className="currentLocationDateTime">
         <p>Last updated at: {currentLocationData.lastUpdated}</p>
       </div>
     </div>

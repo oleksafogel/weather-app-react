@@ -1,32 +1,35 @@
-.SearchField .SearchButton {
-  border: 0px solid white;
-  background-color: buttonface;
+.SearchField .currentLocationButton, .cityInput, .searchButton {
+  border: none;
+  border-radius: 5px;
+  display: inline;
+  height: 34px;
+}
+
+.SearchField .currentLocationButton, .searchButton {
+  background-color: var(--dark-color);
   padding: 5px 8px;
 }
 
-.SearchField input {
-  border: 1.5px solid #efefef;
-  border-radius: 5px;
-  display: inline;
-  padding: 5px;
+.SearchField .currentLocationButton {
+  margin-right: 10px;
 }
 
-.SearchField .CityInput {
+.SearchField .currentLocationPin {
+  color: var(--accent-color);
+}
+
+.SearchField .cityInput {
   max-width: 200px;
   padding: 3.5px 5px;
 }
 
-.SearchField button {
-  border: 1.5px solid #efefef;
-  border-radius: 5px;
-  display: inline;
-  padding: 5px 8px;
+.SearchField .searchButton {
+  margin-left: 10px;
 }
 
-.SearchField .CurrentLocationButton {
-  border: none;
-}
-
-.SearchField .CurrentLocationPin {
-  color: #616873;
+@media (max-width: 1034px) {
+  .SearchField {
+    display: flex;
+    justify-content: center;
+  }
 }

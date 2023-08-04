@@ -1,21 +1,30 @@
-.CurrentWeather .CurrentWeatherDescription {
+.CurrentWeather .currentWeatherDescription {
+  color: #4d4f4e;
   font-size: 40px;
-  margin: 50px 0 10px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 10px;
 }
 
-.CurrentWeather .CurrentWeatherDescription::first-letter {
+.CurrentWeather .currentWeatherDescription::first-letter {
   text-transform: capitalize;
 }
 
-.CurrentWeather .CurrentTemp {
-  font-size: 20px;
-  font-weight: lighter;
+.CurrentWeather .currentTemp {
+  color: #4d4f4e;
+  font-size: 28px;
   margin-bottom: 10px;
 }
-.CurrentWeather .CurrentTempNumber {
+.CurrentWeather .currentTempNumber {
   font-weight: 900;
 }
 
-.CurrentWeather .CurrentWeatherDetails {
+.CurrentWeather .currentWeatherDetails {
   font-size: 15px;
+}
+
+@media (max-width: 1034px) {
+  .CurrentWeather .currentTemp, .currentWeatherDescription {
+    text-align: center;
+  }
 }

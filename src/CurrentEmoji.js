@@ -1,10 +1,9 @@
 import React from "react";
-import "./CurrentEmoji.css";
+import sunnyPic from "./images/sunny-pic.svg"
 
 export default function CurrentEmoji() {
   let currentEmojiData = {
-    picUrl:
-      "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png",
+    pic: sunnyPic,
     altDescription: "Sunny",
   };
 
@@ -12,7 +11,7 @@ export default function CurrentEmoji() {
     <div className="CurrentEmoji">
       <img
         className="CurrentEmojiImgElement"
-        src={currentEmojiData.picUrl}
+        src={currentEmojiData.pic}
         alt={currentEmojiData.altDescription}
       />
     </div>

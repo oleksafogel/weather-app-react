@@ -1,4 +1,17 @@
-.Footer small {
+.Footer {
   font-size: 10px;
   margin-top: 5px;
+}
+
+.Footer a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.Footer a:hover {
+  color: darkmagenta;
+}
+
+.Footer a:visited {
+  color: darkmagenta;
 }

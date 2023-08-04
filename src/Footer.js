@@ -3,8 +3,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="Footer">
-      <small>
+    <footer className="Footer">
         This website is coded by Oleksandra Fogel and is open-sourced on{" "}
         <a
           href="https://github.com/oleksafogel/shecodes-weather-app-react"
@@ -30,7 +29,6 @@ export default function Footer() {
           Netlify
         </a>
         .
-      </small>
-    </div>
+    </footer>
   );
 }
